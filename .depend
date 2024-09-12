@@ -1,0 +1,17 @@
+_server/h42n42.cmo : _server/simulation.cmo
+_server/h42n42.cmx : _server/simulation.cmx
+_server/h42n42.type_mli : _server/simulation.cmo
+_server/h42n42.cmo : _server/h42n42.type_mli
+_server/h42n42.cmx : _server/h42n42.type_mli
+_server/simulation.cmo :
+_server/simulation.cmx :
+_server/simulation.cmo : _server/simulation.type_mli
+_server/simulation.cmx : _server/simulation.type_mli
+_client/h42n42.cmo : _client/simulation.cmo
+_client/h42n42.cmx : _client/simulation.cmx
+_client/h42n42.cmo : _server/h42n42.type_mli
+_client/h42n42.cmx : _server/h42n42.type_mli
+_client/simulation.cmo :
+_client/simulation.cmx :
+_client/simulation.cmo : _server/simulation.type_mli
+_client/simulation.cmx : _server/simulation.type_mli
